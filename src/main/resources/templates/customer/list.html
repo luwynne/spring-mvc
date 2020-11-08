@@ -34,11 +34,7 @@
                     <td th:text="${customer.last_name}"></td>
                     <td th:text="${customer.email}"></td>
                     <td th:text="${customer.phone_number}"></td>
-                    <td th:text="${customer.address_line_one}"></td>
-                    <td th:text="${customer.address_line_two}"></td>
-                    <td th:text="${customer.city}"></td>
-                    <td th:text="${customer.state}"></td>
-                    <td th:text="${customer.zip_code}"></td>
+                    <td th:text="${customer.address}"></td>
                     <td><a th:href="${'/customer/' + customer.id}">View</a> </td>
                     <td><a th:href="${'/customer/edit/' + customer.id}">Edit</a> </td>
                     <td><a th:href="${'/customer/delete/' + customer.id}">Delete</a> </td>
